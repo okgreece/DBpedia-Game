@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ssg</title>
+        <vendor>Ιωάννης</vendor>
+        <homepage href=""/>
+        <description>ssg</description>
+        <description kind="short">ssg</description>
+        
+        
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.6+"/>
+        <jar href="ssg.jar" main="true"/>
+        
+        
+    <jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/arq-2.8.7.jar"/>
+<jar href="lib/icu4j-3.4.4.jar"/>
+<jar href="lib/iri-0.8.jar"/>
+<jar href="lib/jena-2.6.4-tests.jar"/>
+<jar href="lib/jena-2.6.4.jar"/>
+<jar href="lib/junit-4.5.jar"/>
+<jar href="lib/log4j-1.2.13.jar"/>
+<jar href="lib/lucene-core-2.3.1.jar"/>
+<jar href="lib/slf4j-api-1.5.8.jar"/>
+<jar href="lib/slf4j-log4j12-1.5.8.jar"/>
+<jar href="lib/stax-api-1.0.1.jar"/>
+<jar href="lib/wstx-asl-3.2.9.jar"/>
+<jar href="lib/xercesImpl-2.7.1.jar"/>
+</resources>
+    <application-desc main-class="">
+        
+    </application-desc>
+</jnlp>
